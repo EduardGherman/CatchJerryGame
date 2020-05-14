@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <html>
+
+  <head>
+
+    <title>Catch Jerry Game</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery-min.js"></script>
+
+  </head>
+
+<body>
+  <div id="display">
+
+    <h1>Catch me if you can!</h1>
+
+    <p>You need to be faster than 0.7 seconds to catch me! <br> Let's play...</p>
+
+    <p id="startTime">Your time: <span id="timeTaken"></span></p>
+
+  </div>
+
+  <div id="jerryShape">
+    <img src="images/jerry.png" alt="Jerry" id="jerryImg">
+  </div>
+
+  <div id="tomShape">
+    <img src="images/tom.png" alt="Tom" id="tomImg">
+    <p>Good job! You catched me in: <span id="finishTime"></span></p>
+    <button type="button" id="tomButton">Want to play again?</button>
+  </div>
+
+
+
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
